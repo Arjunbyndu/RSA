@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-18T23:56:06 IST" name="Suite" finished-at="2025-05-18T23:56:19 IST" duration-ms="13034">
+    <groups>
+    </groups>
+    <test started-at="2025-05-18T23:56:06 IST" name="Test" finished-at="2025-05-18T23:56:19 IST" duration-ms="13034">
+      <class name="RSA.testcases.tc1">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:RSA.testcases.tc1@a87f8ec]" started-at="2025-05-18T23:56:06 IST" name="launchBrowser" finished-at="2025-05-18T23:56:13 IST" duration-ms="6646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="placeorder(java.util.HashMap)[pri:0, instance:RSA.testcases.tc1@a87f8ec]" started-at="2025-05-18T23:56:13 IST" name="placeorder" data-provider="userData" finished-at="2025-05-18T23:56:13 IST" duration-ms="316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pwd=Java@1234, email=dummy@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeorder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:RSA.testcases.tc1@a87f8ec]" started-at="2025-05-18T23:56:13 IST" name="close" finished-at="2025-05-18T23:56:14 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:RSA.testcases.tc1@a87f8ec]" started-at="2025-05-18T23:56:14 IST" name="launchBrowser" finished-at="2025-05-18T23:56:19 IST" duration-ms="5050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="placeorder(java.util.HashMap)[pri:0, instance:RSA.testcases.tc1@a87f8ec]" started-at="2025-05-18T23:56:19 IST" name="placeorder" data-provider="userData" finished-at="2025-05-18T23:56:19 IST" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pwd=Java@1234, email=javaprogram56@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeorder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:RSA.testcases.tc1@a87f8ec]" started-at="2025-05-18T23:56:19 IST" name="close" finished-at="2025-05-18T23:56:19 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- RSA.testcases.tc1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
